@@ -228,9 +228,9 @@ nav ul li a:hover, nav ul li a:active{
 
 .r-col{
     display: block;
-    width: 95%;
+    width: 100% !important;
     padding: 0;
-    margin: 1% 0 0;
+    margin: 0 !important;
     background-color: #FFF;
     border-bottom: 2px solid #bbb;
     border-radius: 0 0 3px 3px;
@@ -505,8 +505,8 @@ footer .footer .fCol3{
     padding: 0% 2% 2%;
     display: inline-block;
     vertical-align: top;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
+    border-left: 1px solid #fff !important;
+    border-right: 1px solid #fff !important;
      height: 270px;
 }
 
@@ -596,7 +596,7 @@ footer .footer .fcContact ul li ol{
     padding: 5px 0 3px;
     font: 500 1em 'Oswald';
     font-size: 1.05em;
-    bottom-border: none;
+    border-bottom: none !important;
     color: #fff;
     text-transform: uppercase;
 }
