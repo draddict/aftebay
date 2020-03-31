@@ -375,6 +375,26 @@ nav ul li a:hover, nav ul li a:active{
     color: #666;
 }
 
+nav,
+.r-col .ourBest .oBTrump .oBTCircle,
+.desc-fw-title {
+background-color: #03a2f0 !important;
+}
+.r-col .pr-price .price,
+.r-col .ourBest .oBTrump h4{
+    color: #2F4F4F !important;
+}
+.r-col .pr-price .price, .r-col .ourBest .oBTrump h4 {
+    color: #f00349 !important;
+    font-size: 1em;
+}
+.r-col .ourBest .oBTrump .oBTDesc {
+    line-height: 1.4;
+    font-size: 1em;
+    font-weight: 400;
+    color: #000000 !important;
+}
+
 /* ######## ######## ######## */
 
 
@@ -1075,8 +1095,113 @@ footer .footer .fcContact ul li ol{
     font-size: 1.15em;
 }
 
+footer .footer .fcTitle h3,
+footer .footer .fcLinks ul li i,
+footer .footer .fcWhyUs ul li::before,
+footer .footer .fcContact ul li ol {
+    color: white !important;
+}
+footer .footer .fcLinks {
+    width: 80%;
+    margin: 0 10%;
+    padding: 15px 0 16px;
+    border-bottom: none !important;
+}
+footer .footer .fCol3 {
+    width: 24%;
+    padding: 0% 2% 2%;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid white !important;
+    border-right: 1px solid white !important;
+}
+footer .footer .fCol3 {
+    width: 24%;
+    padding: 0% 2% 2%;
+    display: inline-block;
+    vertical-align: top;
+    border-left: 1px solid white !important;
+    border-right: 1px solid white !important;
+    height: 250px;
+}
+footer .footer .fcWhyUs ul li {
+    display: block;
+    width: 80%;
+    margin: 0 5%;
+    padding: 20px 5%;
+    border-bottom: none;
+    font-family: 'Oswald';
+    font-size: 1em;
+    text-align: center;
+}
+footer .footer .fcContact ul li ol {
+    padding: 5px 0 3px;
+    font-size: 1.05em;
+    bottom-border: none;
+}
+.desc-fw-cont p {
+    margin: 0;
+    padding: 0;
+    font: 400 1em 'Arial' !important;
+    line-height: 1.2 !important;
+    color: #000;
+}
+header .logo .sTitle {
+    padding: 0;
+    font: 400 1.2em 'Ubuntu', sans-serif;
+    line-height: 30px;
+    color: #000000 !important;
+}
+.l-col .list-img img {
+    max-height: 80%;
+    max-width: 80%;
+}
+.r-col .bt .sbt a {
+    display: inline-block;
+    width: 42.2%;
+    padding: 13px 3%;
+    background-color: #f00349 !important;
+    font: 400 1em 'Oswald';
+    text-align: center;
+    border-radius: 3px;
+    color: #FFF !important;
 }
 
+  header .logo .sTitle,
+.lTitle h1,
+nav ul li a,
+.desc-fw-title h1,
+footer .footer .fcTitle h3 {
+font-family: 'Orbitron', sans-serif;
+}
+nav ul li a:hover, nav ul li a:active{
+background-color: #668B8B !important;
+border: 1px solid #2F4F4F !important;
+}
+footer .footer .fcLinks ul li a:hover{
+color: #668B8B !important;
+}
+footer {
+    text-align: center;
+    color: #FFF !important;
+    background-color: #03a2f0 !important;
+}
+.r-col {
+    display: inline-block;
+    width: 100% !important;
+    margin: 0 !important;
+    vertical-align: top;
+    float: ;
+}
+footer .footer .fcContact ul li ol {
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: none !important;
+    font: 500 1em 'Oswald';
+        font-size: 1em;
+    color: #0079ED;
+    text-transform: uppercase;
+}
 /* ######## ######## ######## */
 
  
